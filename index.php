@@ -116,7 +116,7 @@ $services = $pdo->query("SELECT * FROM services ORDER BY sort_order ASC")->fetch
                     <h1 class="hero-title">
                         I'm <span
                             class="gradient-text"><?php echo htmlspecialchars($settings['site_name'] ?? 'Amin Ullah'); ?></span><br>
-                        Building first Experiences
+                        Building Digital Experiences
                     </h1>
                     <p class="hero-subtitle">
                         <?php echo $about['subtitle'] ?? "Hi, I'm a passionate Full-Stack Web Developer specializing in creating high-performance, user-centric web applications and modern digital solutions."; ?>

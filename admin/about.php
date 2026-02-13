@@ -159,8 +159,7 @@ if (isset($_GET['success'])) {
                             style="margin-bottom: 15px; padding: 10px; background: rgba(0, 255, 0, 0.1); border-radius: 8px; font-size: 0.9rem;">
                             <i class="fas fa-check-circle" style="color: #2ecc71;"></i>
                             Current CV: <strong><?php echo basename($about['cv_path']); ?></strong>
-                            (<a href="../<?php echo htmlspecialchars($about['cv_path']); ?>" target="_blank"
-                                style="color: var(--primary);">View</a>)
+                            (<a href="../download_cv.php" style="color: var(--primary);">Download</a>)
                         </div>
                     <?php endif; ?>
 

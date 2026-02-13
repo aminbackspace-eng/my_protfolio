@@ -125,8 +125,7 @@ $services = $pdo->query("SELECT * FROM services ORDER BY sort_order ASC")->fetch
                         <a href="#projects" class="btn btn-primary">View My Work</a>
                         <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                         <?php if (!empty($about['cv_path'])): ?>
-                            <a href="<?php echo htmlspecialchars($about['cv_path']); ?>?v=<?php echo time(); ?>"
-                                class="btn btn-outline" download style="border-radius: 100px;">
+                            <a href="download_cv.php" class="btn btn-outline" download style="border-radius: 100px;">
                                 <i class="fas fa-file-pdf"></i> Download CV
                             </a>
                         <?php else: ?>
